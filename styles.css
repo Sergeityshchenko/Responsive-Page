@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  margin: 0px auto;
+  margin: 0px;
   padding: 0px;
 }
 
@@ -42,6 +42,37 @@ nav ul li a {
 }
 nav ul li a:hover{
   color: white;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-weight: bold;
+}
+
+section {
+  width: 1000px;
+  background-color: lightgrey;
+  margin: 80px auto;
+  padding: 30px; 
+  border-radius: 15px;
+  
+}
+
+section .content {
+ padding: 10px 30px 10px 30px;
+ display: flex;
+}
+
+#footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+  background: linear-gradient(  180deg, #033b37e5, #0f6e66e5);
+  display: flex;
+  justify-content: center; 
 }
 
 
